@@ -15,7 +15,6 @@ class CitasApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
-    );
+      home:HomeScreen() import 'screens/home_screen.dart';
   }
 }
