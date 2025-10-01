@@ -1,1 +1,24 @@
+name: citas_app
+description: Starter app de citas
+publish_to: "none"
+version: 0.0.1+1
 
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+  cloud_firestore: ^4.3.1
+  firebase_storage: ^11.0.10
+  flutter_tindercard: ^0.3.0
+  agora_uikit: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
