@@ -1,0 +1,5 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tindercard: ^0.3.0
+  # otras que tengas...
